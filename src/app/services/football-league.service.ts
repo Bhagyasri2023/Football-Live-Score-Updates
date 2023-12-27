@@ -12,14 +12,6 @@ export class FootballLeagueService {
   private API = 'https://v3.football.api-sports.io';
   private readonly currentYear: number = new Date().getFullYear(); // Get the current year
 
-  // private readonly leagueId = {
-  //   england: 39,
-  //   spain: 140,
-  //   germany: 78,
-  //   itlay: 135,
-  //   france: 61,
-  // };
-
   selectedLeague: string = '';
   selectedLeagueID: number = 0;
 

@@ -16,7 +16,7 @@ export class FootBallRapiKeyInterceptor implements HttpInterceptor {
     next: HttpHandler
   ): Observable<HttpEvent<any>> {
     // Add your API key to the request headers here
-    const apiKey = '289c6fb44d31c15b99b16f06fd8e8172';
+    const apiKey = '96ca2df76fd7305c23c6254e77622c49';
     const modifiedRequest = request.clone({
       setHeaders: {
         'x-rapidapi-key': `${apiKey}`,
